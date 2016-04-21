@@ -2,6 +2,9 @@ package com.example.api;
 
 import aQute.bnd.annotation.metatype.*;
 
+import com.liferay.portal.configuration.metatype.annotations.*;
+
+@ExtendedObjectClassDefinition(category = "custom",scope = ExtendedObjectClassDefinition.Scope.GROUP)
 @Meta.OCD(id = "com.example.api.ColorConfiguration")
 public interface ColorConfiguration {
     @Meta.AD(
